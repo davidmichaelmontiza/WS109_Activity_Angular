@@ -1,0 +1,45 @@
+.wrapper {
+  width: 100%;
+
+  border-bottom: 1px solid var(--border-color);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+  padding: 2rem;
+
+  box-sizing: border-box;
+
+  background-color: #C7B7A3;
+
+  .logo {
+    height: 100%;
+    object-fit: contain;
+
+    height: 5rem;
+
+    margin-right: auto;
+  }
+
+  .Home{
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Stencil';
+  }
+
+  .Home {
+    color: black; 
+  }
+  
+  .Home:hover {
+    background-color: #3E3232;
+    color: white;
+  }
+  
+}
